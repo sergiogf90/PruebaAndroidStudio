@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="saludos">
+        <item>Hola mundo!</item>
+        <item>Hello world!</item>
+        <item>Ciao mondo!</item>
+    </string-array>
+    <string-array name="botones">
+        <item>Cambiar idioma</item>
+        <item>Change language</item>
+        <item>Cambia lingua</item>
+    </string-array>
+</resources>

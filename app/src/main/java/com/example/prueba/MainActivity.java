@@ -12,12 +12,14 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    String[] saludos;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button = findViewById(R.id.button);
         button.setOnClickListener(this::onClick);
+        saludos = getResources().getStringArray(R.array.saludos);
     }
 
 
